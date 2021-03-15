@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>
+car installments
+</title>
+<link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+<div id="maindiv">
+<div id="calc">
+<form>
+<h2>CAR Price</h2>
+<input type="text" placeholder="type car price here" id="price">
+<h2>DEPOSIT</h2>
+<select id="deposit">
+<option value="0.25">25%</option>
+<option value="0.30">30%</option>
+<option value="0.40">40%</option>
+<option value="0.50">50%</option>
+</select>
+<h2>YEARS OF INSTALLMENTS</h2>
+<select id="years">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option>5</option>
+</select>
+<button type="button" onclick="calculate()">Calculate</button>
+</form>
+</div>
+<div id="result">
+<h2 id="showdeposit"></h2>
+<h2 id="showyears"></h2>
+<h2 id="showprice"></h2>
+<h2 id="totalinst"></h2>
+<h2 id="monthlyinst"></h2>
+<button type="button" onclick="recalculate()"> RECALCULATE</button>
+</div>
+
+
+
+
+<script src="myscript.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
